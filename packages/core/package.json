@@ -2,8 +2,14 @@
   "name": "all-editor",
   "version": "0.0.0",
   "type": "module",
+  "main": "./src/index.ts",
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./style": {
+      "import": "./src/style/style.scss"
+    }
   },
   "scripts": {
     "build": "rslib build",
@@ -11,5 +17,10 @@
   },
   "devDependencies": {
     "@rslib/core": "^0.18.3"
+  },
+  "dependencies": {
+    "@tiptap/core": "^3.12.0",
+    "@tiptap/pm": "^3.12.0",
+    "@tiptap/starter-kit": "^3.12.0"
   }
 }

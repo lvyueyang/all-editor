@@ -8,7 +8,11 @@
     "dev": "rsbuild dev --open",
     "preview": "rsbuild preview"
   },
+  "dependencies": {
+    "all-editor": "workspace:*"
+  },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.7"
+    "@rsbuild/core": "^1.6.7",
+    "@rsbuild/plugin-sass": "^1.4.0"
   }
 }

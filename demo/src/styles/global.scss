@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #111;
+  font-size: 16px;
+  background: #f1f1f1;
+}
+
+.all-editor-theme-default {
+}
+
+.all-editor {
+  &-container {
+    border: 1px solid #111;
+  }
+}

@@ -1,1 +1,2 @@
-export const squared = (n: number): number => n * n;
+export type { AllEditorOptions } from './types/index.js';
+export { AllEditor } from './editor/index.js';
